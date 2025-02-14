@@ -6,3 +6,24 @@
   align-items: center;
   padding: 92px 50px 96px;
 }
+
+.header__logo {
+  display: block;
+  width: 137px;
+  height: 105px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 33px;
+  list-style: circle;
+}
+
+.address {
+  font-style: normal;
+}
+
+.header__address {
+  max-width: 237px;
+  justify-self: end;
+}
