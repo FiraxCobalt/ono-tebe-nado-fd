@@ -112,7 +112,7 @@
 }
 
 .lots {
-  padding-top: 180px;
+  padding: 180px 0 120px;
 }
 
 .lots__heading {
@@ -128,7 +128,7 @@
 }
 
 .lots__card-list {
-  margin-bottom: 3px;
+  margin-bottom: 31px;
   padding: 0 24px;
   display: flex;
   flex-wrap: wrap;
