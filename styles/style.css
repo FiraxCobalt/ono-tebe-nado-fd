@@ -111,6 +111,21 @@
   cursor: pointer;
 }
 
+.lots {
+  padding-top: 180px;
+}
+
+.lots__heading {
+  padding: 0 65px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 .lots__card-list {
   display: flex;
   list-style-type: none;
