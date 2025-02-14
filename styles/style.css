@@ -116,6 +116,7 @@
 }
 
 .lots__heading {
+  margin-bottom: 25px;
   padding: 0 65px;
 }
 
@@ -128,6 +129,9 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
   list-style-type: none;
 }
 
