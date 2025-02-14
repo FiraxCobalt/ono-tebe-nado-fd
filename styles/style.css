@@ -128,10 +128,10 @@
 }
 
 .lots__card-list {
-  margin-bottom: 31px;
+  margin-bottom: 3px;
+  padding: 0 24px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 25px;
   list-style-type: none;
 }
@@ -188,8 +188,14 @@
 }
 
 .lots__look-more-link {
-  padding-left: 64px;
+  padding: 0 64px;
   font-size: 20px;
   line-height: 1.1;
   text-underline-offset: 5px;
+}
+
+.about {
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: 334px 1fr;
 }
