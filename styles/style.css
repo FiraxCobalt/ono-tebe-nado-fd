@@ -195,15 +195,19 @@
 }
 
 .about {
-  padding: 0 24px;
+  padding: 35px 24px 24px;
   display: grid;
   grid-template-columns: 334px 1fr;
+  grid-template-rows: 240px auto;
+  min-height: 595px;
 }
 
 .about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: center;
+  grid-column: 1 / 2;
   width: 240px;
   height: 240px;
   background-color: rgb(0 0 0);
@@ -213,4 +217,25 @@
 .about__logo-image {
   width: 142px;
   height: 113px;
+}
+
+.about__column {
+  padding-left: 25px;
+  display: grid;
+  grid-template-rows: 247px 1fr;
+}
+
+.about__title {
+  align-self: center;
+}
+
+.about__text-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.about__text {
+  font-size: 20px;
+  line-height: 1.2;
 }
