@@ -44,7 +44,7 @@
 
 .cover {
   padding: 168px 50px 50px;
-  position: relative; 
+  position: relative;
   background-image: url("../images/cover.jpg");
 }
 
@@ -238,4 +238,9 @@
 .about__text {
   font-size: 20px;
   line-height: 1.2;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
