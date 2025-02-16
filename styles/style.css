@@ -244,3 +244,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
+.footer__address {
+  max-width: 261px;
+}
