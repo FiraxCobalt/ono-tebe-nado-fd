@@ -75,11 +75,16 @@
 }
 
 .aligned-text_center {
+  margin-right: -0.3em;
   text-align: center;
 }
 
 .aligned-text_right {
   text-align: right;
+}
+
+.no-letter-spacing {
+  letter-spacing: 0;
 }
 
 .cover__description {
