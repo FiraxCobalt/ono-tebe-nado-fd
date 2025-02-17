@@ -226,7 +226,7 @@
 
 .about__column {
   display: grid;
-  grid-template-rows: 247px 1fr;
+  grid-template-rows: 4fr 5fr;
   padding-left: 25px;
 }
 
@@ -237,7 +237,7 @@
 .about__text-content {
   display: flex;
   flex-direction: column;
-  row-gap: 24px;
+  row-gap: 22px;
 }
 
 .about__text {
