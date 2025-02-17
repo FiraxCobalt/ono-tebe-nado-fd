@@ -46,6 +46,8 @@
   position: relative;
   padding: 168px 50px 50px;
   background-image: url("../images/cover.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .overlay {
